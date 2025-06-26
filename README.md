@@ -3,7 +3,9 @@
 This project contains two approaches to scrapig data from a energy market database of companies
 1.) Selenium
      - Login to the energy market website
+     
      - Run the script selenium_scraper.py - a new chromium browser will start scraping using the same login session
+     
      - The script will automatically scroll and dump he results into a CSV
      
 2.) API Based - this was discovered after option 1, and returns a lot more data much quicker. 
